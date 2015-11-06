@@ -105,12 +105,20 @@ public class TicketMachine
     /**
      * vaciado de maquina.
      */
-    public int emptyMachine()
+    public void emptyMachine()
     {
+      if balance = 0
+      {
        int dinero;
        dinero = total;
        total = 0;
        return dinero;
+      }
+      else
+      {
+         System.out.println(-1);  
+      }
+      
     }
     
     
